@@ -46,7 +46,7 @@ async function retrieveCitiesFromCSV() {
 
 /**
  * Retrieves a list of weather forecast promises for a given set of cities.
- * @param {string[]} cities - An array of cities name.
+ * @param {array} cities - An array of cities name.
  * @returns {array} - An array of Promises, each of which resolves to a weather forecast object for the corresponding city.
  */
 function weatherPromises(cities) {
