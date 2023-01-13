@@ -1,0 +1,14 @@
+{
+  "name": "valence-aws-javascript-takehome",
+  "version": "1.0.0",
+  "description": "My description here.",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^1.81.1"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "csvtojson": "^2.0.10"
+  }
+}
