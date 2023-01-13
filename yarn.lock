@@ -963,7 +963,7 @@ chalk@^2.0.1, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0:
+chalk@^4.0.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -1478,6 +1478,16 @@ dot-qs@0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/dot-qs/-/dot-qs-0.2.0.tgz"
   integrity sha512-4PzH4lANxojsx2aTexBUhZ9jtUkhxvv5o2xtNkeNgSBvZ6PEq51t2eLuanOFEjk2jcp2ax9wFmxhOSU7gMPIBQ==
+
+dotenv-expand@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-8.0.3.tgz"
+  integrity sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==
+
+dotenv@^16.0.1:
+  version "16.0.3"
+  resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz"
+  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
 
 dotenv@^8.2.0:
   version "8.6.0"
@@ -3876,6 +3886,15 @@ semver@^7.3.2, semver@^7.3.7:
   integrity sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==
   dependencies:
     lru-cache "^6.0.0"
+
+serverless-dotenv-plugin@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npmjs.org/serverless-dotenv-plugin/-/serverless-dotenv-plugin-4.0.2.tgz"
+  integrity sha512-MOXsSSuJPMAiNp7bVvvCC+ahmEMMohlaPpaVU2w4wFgMVSvs+BU7xIwQGv/7TTMNdjYVS/W2JoS5ZSkCdjHzCg==
+  dependencies:
+    chalk "^4.1.2"
+    dotenv "^16.0.1"
+    dotenv-expand "^8.0.3"
 
 serverless@^1.81.1:
   version "1.83.3"

@@ -6,7 +6,7 @@
       "request": "launch",
       "name": "Launch Lambda",
       "program": "${workspaceFolder}/node_modules/serverless/bin/serverless",
-      "args": ["invoke", "local", "-f", "myFunction"],
+      "args": ["invoke", "local", "-f", "forecast"],
       // Required, otherwise Serverless thinks stdin is a stream and tries to read options from it.
       "console": "integratedTerminal"
     }
